@@ -7,7 +7,7 @@
     "start": "webpack --watch --color --hot",
     "clean": "rm -rf ../priv/static/*.*",
     "build": "npm run clean && NODE_ENV=production webpack",
-    "upload": "oss-upload ../priv/static -o / -c oss.secret.js",
+    "upload": "oss-upload ../priv/static -o /bighero/ -c oss.secret.js",
     "test": "test-mate",
     "cov": "test-mate --coverage",
     "ci": "npm run stylelint && npm run lint && npm run cov"
