@@ -21,6 +21,6 @@ config :bighero, BigheroWeb.Endpoint,
   ],
   secret_key_base: secret_key_base
 
-config :bighero, BigheroWeb.Repo,
+config :bighero, Bighero.Repo,
   url: database_url,
   pool_size: String.to_integer(System.get_env("POOL_SIZE") || "10")
