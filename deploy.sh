@@ -12,4 +12,4 @@ docker build \
 docker tag bighero:latest $path
 docker push $path
 
-ssh lesscap "cd apps; docker-compose pull bighero && docker-compose up bighero -d"
+ssh lesscap "cd apps; docker-compose pull bighero && docker-compose up -d bighero"
