@@ -3,4 +3,5 @@ assets/coverage/
 assets/node_modules/
 node_modules/
 deps/
+priv/static/
 .git
