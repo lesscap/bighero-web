@@ -15,7 +15,7 @@ config :bighero, BigheroWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "CYPb6qUyVtgSaDbTpVe/wMbeOXGPfoK0s+E1eDbmiyEl6Ci0ldH11jB6Loq5W4gp",
   render_errors: [view: BigheroWeb.ErrorView, accepts: ~w(html json)],
-  pubsub: [name: Bighero.PubSub, adapter: Phoenix.PubSub.PG2],
+  pubsub_server: Bighero.PubSub,
   live_view: [signing_salt: "u079583d"]
 
 # Configures Elixir's Logger

@@ -11,7 +11,7 @@
     <% end %>
   </head>
   <body>
-    <%= render @view_module, @view_template, assigns %>
+    <%= @inner_content %>
     <%= if assets do %>
     <script type="text/javascript" src="<%= Routes.static_url(@conn, "/js/#{assets}.js") %>"></script>
     <% end %>

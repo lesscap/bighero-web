@@ -11,9 +11,10 @@ defmodule Bighero.Application do
       # Start the Ecto repository
       Bighero.Repo,
       # Start the endpoint when the application starts
-      BigheroWeb.Endpoint
+      BigheroWeb.Endpoint,
       # Starts a worker by calling: Bighero.Worker.start_link(arg)
       # {Bighero.Worker, arg},
+      {Phoenix.PubSub, [name: Bighero.PubSub, adapter: Phoenix.PubSub.PG2]}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
