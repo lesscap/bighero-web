@@ -12,7 +12,7 @@ use Mix.Config
 config :bighero, BigheroWeb.Endpoint,
   server: true,
   http: [port: 4000],
-  url: [host: "bighero.lesscap.com", port: 443, scheme: "https"],
+  url: [host: "okr.lesscap.com", port: 443, scheme: "https"],
   static_url: [host: "lesscap.oss-cn-shanghai.aliyuncs.com", port: 443, scheme: "https"],
   cache_static_manifest: "priv/static/cache_manifest.json"
 
