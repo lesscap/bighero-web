@@ -5,7 +5,7 @@ import style from './style.less';
 const App = () => {
   return (
     <div className={style.app}>
-      <h1>鱼米OKR</h1>
+      <h1>My OKR</h1>
     </div>
   );
 };
