@@ -1,0 +1,5 @@
+<svg viewBox="0 0 100 100"><path class="people-progress-circle-trail" d="M 50,50 m 0,-38.888888888888886
+     a 38.888888888888886,38.888888888888886 0 1 1 0,77.77777777777777
+     a 38.888888888888886,38.888888888888886 0 1 1 0,-77.77777777777777" stroke="#fce4cc" stroke-linecap="round" stroke-width="22.22222222222222" fill-opacity="0" style="stroke: rgb(252, 228, 204); stroke-dasharray: 244.346px, 244.346px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;"></path><path class="people-progress-circle-path" d="M 50,50 m 0,-38.888888888888886
+     a 38.888888888888886,38.888888888888886 0 1 1 0,77.77777777777777
+     a 38.888888888888886,38.888888888888886 0 1 1 0,-77.77777777777777" stroke-linecap="round" stroke-width="22.22222222222222" fill-opacity="0" style="stroke: rgb(245, 141, 44); stroke-dasharray: 48.8692px, 244.346px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;"></path></svg>
