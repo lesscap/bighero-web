@@ -17,17 +17,17 @@ const App = () => {
       <main className={style.main}>
         <section className={style.okrSection}>
           <div className={style.okrList}>
-
             <div className={style.okrItem}>
+              <div className={style.alignmentAdder}>添加对齐</div>
               <div className={cx(style.objective, 'x-part')}>
-                <div className="main">
+                <div className="main x-cell">
                   <div className="move"></div>
-                  <div className="icon"></div>
+                  <div className="flag icon"></div>
                   <div className="content">完成OKR第一个可用版本</div>
                 </div>
-                <div className="right">
-                  <div className="progress">进度：10%</div>
-                  <div className="score">总分：0.0</div>
+                <div className="right x-cell">
+                  <div className="field progress">进度：10%</div>
+                  <div className="field score">总分：0.0</div>
                   <div className="menu">
                     <button>删除</button>
                   </div>
@@ -36,12 +36,66 @@ const App = () => {
 
               <div className="key-results">
                 <div className={cx(style.keyResult, 'x-part')}>
-                  <div className="main">
+                  <div className="main x-cell">
                     <div className="move"></div>
-                    <div className="icon"></div>
+                    <div className="point icon"></div>
                     <div className="content">关键指标2</div>
                   </div>
-                  <div className="right">
+                  <div className="right x-cell">
+                    <div className="progress">
+                      <div className="indicator"></div>
+                      <div className="value">50%</div>
+                    </div>
+                    <div className="score">0.2</div>
+                    <div className="menu">
+                      <button>删除</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div className={cx(style.keyResult, 'active x-part')}>
+                  <div className="main x-cell">
+                    <div className="move"></div>
+                    <div className="point icon"></div>
+                    <div className="content">关键指标2</div>
+                  </div>
+                  <div className="right x-cell">
+                    <div className="progress">
+                      <div className="indicator"></div>
+                      <div className="value">50%</div>
+                    </div>
+                    <div className="score">0.2</div>
+                    <div className="menu">
+                      <button>删除</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div className={cx(style.keyResult, 'x-part')}>
+                  <div className="main x-cell">
+                    <div className="move"></div>
+                    <div className="point icon"></div>
+                    <div className="content">关键指标2</div>
+                  </div>
+                  <div className="right x-cell">
+                    <div className="progress">
+                      <div className="indicator"></div>
+                      <div className="value">50%</div>
+                    </div>
+                    <div className="score">0.2</div>
+                    <div className="menu">
+                      <button>删除</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div className={cx(style.keyResult, 'x-part')}>
+                  <div className="main x-cell">
+                    <div className="move"></div>
+                    <div className="point icon"></div>
+                    <div className="content">关键指标2</div>
+                  </div>
+                  <div className="right x-cell">
                     <div className="progress">
                       <div className="indicator"></div>
                       <div className="value">50%</div>
@@ -56,10 +110,108 @@ const App = () => {
               <div className={style.keyResultAdder}>
                 添加Key Result
               </div>
+
+              <div className={style.objectiveMeta}>
+                <div className="created">创建于 06-08</div>
+              </div>
             </div>
 
-            <div className={style.objectiveMeta}>
-              <div className="created">创建于 06-08</div>
+            <div className={style.okrItem}>
+              <div className={style.alignmentAdder}>添加对齐</div>
+              <div className={cx(style.objective, 'x-part')}>
+                <div className="main x-cell">
+                  <div className="move"></div>
+                  <div className="flag icon"></div>
+                  <div className="content">完成OKR第一个可用版本</div>
+                </div>
+                <div className="right x-cell">
+                  <div className="field progress">进度：10%</div>
+                  <div className="field score">总分：0.0</div>
+                  <div className="menu">
+                    <button>删除</button>
+                  </div>
+                </div>
+              </div>
+
+              <div className="key-results">
+                <div className={cx(style.keyResult, 'x-part')}>
+                  <div className="main x-cell">
+                    <div className="move"></div>
+                    <div className="point icon"></div>
+                    <div className="content">关键指标2</div>
+                  </div>
+                  <div className="right x-cell">
+                    <div className="progress">
+                      <div className="indicator"></div>
+                      <div className="value">50%</div>
+                    </div>
+                    <div className="score">0.2</div>
+                    <div className="menu">
+                      <button>删除</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div className={cx(style.keyResult, 'x-part')}>
+                  <div className="main x-cell">
+                    <div className="move"></div>
+                    <div className="point icon"></div>
+                    <div className="content">关键指标2</div>
+                  </div>
+                  <div className="right x-cell">
+                    <div className="progress">
+                      <div className="indicator"></div>
+                      <div className="value">50%</div>
+                    </div>
+                    <div className="score">0.2</div>
+                    <div className="menu">
+                      <button>删除</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div className={cx(style.keyResult, 'x-part')}>
+                  <div className="main x-cell">
+                    <div className="move"></div>
+                    <div className="point icon"></div>
+                    <div className="content">关键指标2</div>
+                  </div>
+                  <div className="right x-cell">
+                    <div className="progress">
+                      <div className="indicator"></div>
+                      <div className="value">50%</div>
+                    </div>
+                    <div className="score">0.2</div>
+                    <div className="menu">
+                      <button>删除</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div className={cx(style.keyResult, 'x-part')}>
+                  <div className="main x-cell">
+                    <div className="move"></div>
+                    <div className="point icon"></div>
+                    <div className="content">关键指标2</div>
+                  </div>
+                  <div className="right x-cell">
+                    <div className="progress">
+                      <div className="indicator"></div>
+                      <div className="value">50%</div>
+                    </div>
+                    <div className="score">0.2</div>
+                    <div className="menu">
+                      <button>删除</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={style.keyResultAdder}>
+                添加Key Result
+              </div>
+              <div className={style.objectiveMeta}>
+                <div className="created">创建于 06-08</div>
+              </div>
             </div>
           </div>
           <div className={style.objectiveAdder}>添加Objective</div>

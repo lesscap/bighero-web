@@ -2,4 +2,133 @@
 @import '~@/styles/common.less';
 
 :local(.app) {
+  padding: 24px;
+}
+
+:local(.header) {
+  margin-bottom: 24px;
+}
+
+:local(.user) {
+  display: flex;
+  align-items: center;
+
+  .avatar {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+    border-radius: 50%;
+  }
+  .nick {
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
+
+:local(.okrItem) {
+  position: relative;
+  padding: 12px 0 0;
+  margin-bottom: 16px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px 0 rgba(31, 35, 41, 0.05);
+}
+
+:local(.objective) {
+  padding: 0 24px 12px 23px;
+
+  .right {
+    width: ;
+  }
+
+  .flag.icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+    background: url(~@/images/flag.png) no-repeat 0 0;
+    background-size: 100%;
+  }
+  .content {
+    line-height: 24px;
+    min-height: 24px;
+    font-size: 16px;
+  }
+  .field {
+    margin-right: 28px;
+    color: #646a73;
+  }
+}
+
+:local(.keyResult) {
+  position: relative;
+  margin-top: -2px;
+  padding: 0 23px 0 60px;
+  border: 1px solid transparent;
+
+  &::after {
+    position: absolute;
+    display: block;
+    content: '';
+    height: 1px;
+    background: #dee0e3;
+    left: 60px;
+    bottom: 0;
+    right: 23px;
+  }
+
+  &.active {
+    border-radius: 4px;
+    border-color: #3370ff;
+    box-shadow: inset 0 0 6px 0 rgba(51,112,255,.4);
+  }
+
+  .point.icon {
+    display: flex;
+    width: 24px;
+    align-items: center;
+    justify-content: center;
+
+    &::before {
+      display: block;
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #3370ff;
+    }
+  }
+
+  .content {
+    padding: 12px 0;
+    color: #373c43;
+    line-height: 22px;
+  }
+
+  .progress {
+    .value {
+      color: #646a73;
+    }
+  }
+  .score {
+    color: #646a73;
+  }
+}
+
+:local(.objectiveMeta) {
+  position: absolute;
+  right: 24px;
+  top: 0;
+  padding: 0 8px;
+  border-radius: 0 0 4px 4px;
+  background: #eff0f1;
+  color: #646a73;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+:local(.alignmentAdder) {
+  padding: 0 67px;
+  color: #8f959e;
+  font-size: 12px;
 }
